@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}ElectoChain{% endblock %}</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">-->
+    {% block head %}
+    {% endblock %}
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ElectoChain</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'election:adminPanel' ecId %}">Admin Panel<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#electionModal">Create Election</a>
+                </li>
+
+                {% if request.session.voterId %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Voter ID: {{ request.session.voterId }}</a>
+                    </li>
+                {% elif request.session.admin %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EC ID: {{ request.session.ecId }}</a>
+                    </li>
+                {% else %}
+
+                {% endif %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'auth:logout' %}">
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    {% block body %}
+    {% endblock %}
+
+
+</body>
+</html>

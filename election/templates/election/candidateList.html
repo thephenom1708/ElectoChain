@@ -1,0 +1,53 @@
+{% extends 'auth/header.html' %}
+{% block title %}ElectoChain:Candidates{% endblock %}
+
+{% block head %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/candidate.css' %}">
+    <script src="{% static 'js/addCandidate.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">{{ currentElection.election_name }}</h5>
+        <center><h3>Cast Your Vote here!</h3></center><br>
+        {% if candidates %}
+        <div class="row">
+            {% for candidate in candidates %}
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="{{ candidate.candidate_pic.url }}" alt="card image"></p>
+                                    <h4 class="card-title">{{ candidate.candidate_name }}</h4>
+                                    <p class="card-text">{{ candidate.candidate_party }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{ candidate.candidate_age }}</h4>
+                                    <p class="card-text">{{ candidate.candidate_description }}</p>
+                                    <button type="button" class="btn btn-warning">Vote</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+            <div class="col-md-12"><br>
+                <center><h3>Sorry !!! There is no any election today !!!</h3></center>
+            </div>
+        {% endif %}
+    </div>
+</section>
+
+{% endblock %}

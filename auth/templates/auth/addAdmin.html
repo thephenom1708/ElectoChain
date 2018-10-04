@@ -1,0 +1,21 @@
+{% extends 'auth/header.html' %}
+{% block title %}ElectoChain: Add Admin{% endblock %}
+
+{% block body %}
+
+    <div class="jumbotron">
+        <center>
+            <form method="post" role="form" action="{% url 'auth:addAdmin' %}">
+                {% csrf_token %}
+                <fieldset>
+                    <legend><h1 class="display-4">Admin Registration</h1></legend>
+                    {% include 'auth/formTemplate.html' %}
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Register !" required>
+                    </div>
+                </fieldset>
+            </form>
+        </center>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'auth/header.html' %}
+{% block title %}ElectoChain: Login Admin{% endblock %}
+
+{% block body %}
+    {% if validate is False %}
+    <div class="alert alert-dismissible alert-danger">
+        <strong>Invalid Admin Credentials !</strong><span> Try Again !!!</span>
+    </div>
+    {% endif %}
+    <div class="jumbotron">
+        <center>
+            <form method="post" role="form" action="{% url 'auth:loginAdmin' %}">
+                {% csrf_token %}
+                <fieldset>
+                    <legend><h1 class="display-4">Admin Authentication</h1></legend>
+                    {% include 'auth/formTemplate.html' %}
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Submit !" required>
+                    </div>
+                </fieldset>
+            </form>
+        </center>
+    </div>
+
+{% endblock %}

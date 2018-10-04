@@ -1,0 +1,40 @@
+{% extends 'auth/header.html' %}
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+    {% if activeVoter %}
+        <style>
+            .avatar{
+                width: 100%;
+            }
+        </style>
+        {% load static %}
+        <div class=" container jumbotron">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><b>{{ voterInfo.name }}</b></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="thumbnail avatar" src="{{ voterInfo.profile_image.url }}"><br><br>
+                            <a class="btn btn-success btn-block" href="{% url 'election:candidateList' activeVoter.voter_id %}">Proceed to Vote...</a>
+                        </div>
+                        <div class="col-md-9">
+                            <span class="badge badge-danger">Authenticated: {{ activeVoter.has_authenticated }}</span>
+                            <span class="badge badge-info">Voted: {{ activeVoter.has_voted }}</span>
+                            <br><br>
+                            <ul class="list-group">
+                                <li class="list-group-item"><b>Voter ID:</b> {{ activeVoter.voter_id }}</li>
+                                <li class="list-group-item"><b>Aadhaar ID:</b> {{ voterInfo.aadhaar_id }}</li>
+                                <li class="list-group-item"><b>Birth Date:</b> {{ voterInfo.birth_date }}</li>
+                                <li class="list-group-item"><b>Age:</b> {{ voterInfo.age }}</li>
+                                <li class="list-group-item"><b>Locality:</b> {{ voterInfo.locality }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

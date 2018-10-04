@@ -1,0 +1,28 @@
+{% extends 'auth/header.html' %}
+{% block title %}ElectoChain: Error{% endblock %}
+
+{% block head %}
+
+    {% load static %}
+
+    <script type="text/javascript" src="{% static 'home/js/error.js' %}"></script>
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="errorAlert" onload="errAlert();">
+        <div class="alert alert-dismissible alert-danger">
+             <button type="button" class="close" data-dismiss="alert">&times;</button>
+             <h4 class="alert-heading">Error!</h4>
+             <p class="mb-0">{{ errMsg }}</p>
+        </div>
+    </div>
+
+    <br>
+
+    <center>
+        <button class="btn btn-primary btn-lg"><a href="../../election/{{ redirectLink }}">Proceed</a></button>
+    </center>
+
+{% endblock %}
