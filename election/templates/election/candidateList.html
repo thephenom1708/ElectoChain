@@ -5,9 +5,33 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/candidate.css' %}">
     <script src="{% static 'js/addCandidate.js' %}"></script>
+
+    <script>
+        $(document).on("click", "#voteBtn", function () {
+
+        var candidateId = $(this).data('id');
+        var candidateName = $(this).data('name');
+        var confirmBox = confirm("Are you sure, You want to cast your vote to " + candidateName);
+
+        if(confirmBox){
+            window.location.href = "/network/createTransaction/" + candidateId;
+        }
+        else{
+
+        }
+    });
+    </script>
+
 {% endblock %}
 
 {% block body %}
+
+    {% if errorMsg %}
+         <div class="alert alert-dismissible alert-warning">
+             <strong>{{ errorMsg }}</strong>
+         </div>
+    {% endif %}
+
 
 <section id="team" class="pb-5">
     <div class="container">
@@ -24,16 +48,18 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="{{ candidate.candidate_pic.url }}" alt="card image"></p>
                                     <h4 class="card-title">{{ candidate.candidate_name }}</h4>
-                                    <p class="card-text">{{ candidate.candidate_party }}</p>
+                                    <p class="card-text"><b>{{ candidate.candidate_party }}</b></p>
                                 </div>
                             </div>
                         </div>
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">{{ candidate.candidate_age }}</h4>
+                                    <h4 class="card-title">{{ candidate.candidate_name }}</h4>
+                                    <p class="card-text"><b>AGE : </b>{{ candidate.candidate_age }}</p>
                                     <p class="card-text">{{ candidate.candidate_description }}</p>
-                                    <button type="button" class="btn btn-warning">Vote</button>
+                                    <button id="voteBtn" data-id="{{ candidate.candidate_id }}" data-name="{{ candidate.candidate_name }}"
+                                            type="button" class="btn btn-warning">Vote</button>
                                 </div>
                             </div>
                         </div>

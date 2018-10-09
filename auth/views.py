@@ -77,12 +77,14 @@ def validateVoter(request):
                 request.session['voterId'] = voterId
                 request.session['has_authenticated'] = True
                 request.session['has_voted'] = False
+                request.session['voteCasted'] = False
 
-                return render(request, 'auth/profile.html', { 'activeVoter': activeVoter, 'voterInfo': voter[0] })
+                return render(request, 'auth/profile.html', { 'activeVoter': activeVoter[0], 'voterInfo': voter[0] })
             else:
                 request.session['voterId'] = voterId
                 request.session['has_authenticated'] = True
                 request.session['has_voted'] = False
+                request.session['voteCasted'] = False
                 return render(request, 'auth/profile.html', {'activeVoter': activeVoter[0], 'voterInfo': voter[0]})
 
 

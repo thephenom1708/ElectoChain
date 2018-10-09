@@ -22,6 +22,7 @@ urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'^auth/', include('auth.urls')),
     url(r'^election/', include('election.urls')),
+    url(r'^network/', include('network.urls')),
 ]
 
 if settings.DEBUG:

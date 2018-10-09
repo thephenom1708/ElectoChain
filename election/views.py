@@ -121,7 +121,7 @@ def addCandidate(request, ecId):
 
 
 def candidateList(request, voterId):
-    if voterId is not None:
+    if voterId is not None and request.session['voteCasted'] is False:
         currentElectionId = "feaaabeb4d6d00f5ec2c3eed5d6987566cbeedca9213d7be17534fa537fc0154"
         currentElection = Election.objects.filter(election_id=currentElectionId)[0]
         candidates = Candidate.objects.filter(candidate_election=currentElection)
@@ -133,5 +133,10 @@ def candidateList(request, voterId):
         }
         return render(request, 'election/candidateList.html', context)
     else:
-        return HttpResponse("Invalid Error")
+        context = {
+            'voterId': voterId,
+            'errorMsg': 'You have already casted your vote !'
+        }
+        return render(request, 'election/candidateList.html', context)
+
 
