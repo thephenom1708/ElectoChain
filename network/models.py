@@ -8,12 +8,12 @@ import json
 
 
 class Transaction(models.Model):
-    voter = models.ForeignKey(ActiveVoter, on_delete=models.CASCADE)
+    voter_id = models.CharField(max_length=100)
     salt = models.CharField(max_length=100)
     candidate_hash = models.CharField(max_length=100)
 
-    def setTransaction(self, voter, candidateId):
-        self.voter = voter
+    def createNewTransaction(self, voter_id, candidateId):
+        self.voter_id = voter_id
         self.salt = secrets.token_hex(5)
         self.calculateCandidateHash(candidateId)
 
@@ -24,7 +24,7 @@ class Transaction(models.Model):
         self.candidate_hash = sha.hexdigest()
 
     def __str__(self):
-        return str(self.voter.voter_id) + '--' + str(self.candidate_hash)
+        return str(self.voter_id) + '--' + str(self.candidate_hash)
 
 
 class Block(models.Model):
@@ -33,24 +33,48 @@ class Block(models.Model):
     prev_hash = models.CharField(max_length=100)
     hash = models.CharField(max_length=100)
 
-    def __init__(self, transaction, prevBlock):
+    def __str__(self):
+        return str(self.hash)
+
+    def createNewBlock(self, transaction, prevBlock):
         self.transaction = transaction
-        self.prev_hash = prevBlock.prev_hash
-        self.nonce = 0;
-        self.difficulty = 5;
+        self.prev_hash = prevBlock.hash
+        self.nonce = 0
+        self.difficulty = 5
+        self.mineBlock()
+        return self
 
     def generateHash(self):
         sha = hashlib.sha256()
         data = str(self.timestamp) + self.prev_hash + str(self.transaction)
         sha.update(data.encode('utf-8'))
-        hash = sha.hexdigest()
         return hash
 
     def mineBlock(self):
         target = str('0' * self.difficulty)
-        while str(self.hash[:self.difficulty]) != target:
+        while str(self.hash)[:self.difficulty] != target:
             self.nonce = self.nonce + 1
             self.hash = self.generateHash()
+
+
+class Peer(models.Model):
+    name = models.CharField(max_length=255)
+    address = models.CharField(max_length=255, unique=True)
+
+    def __str__(self):
+        return self.name + "@" + self.address
+
+    def createNewPeer(self, name, address):
+        self.name = name
+        self.address = address
+        return self
+
+
+class Check(models.Model):
+    port = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.port
 
 
 

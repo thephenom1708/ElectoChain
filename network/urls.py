@@ -1,9 +1,11 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
 from . import views
 
 app_name = 'network'
 
 urlpatterns = [
-    url('^createTransaction/(?P<candidateId>\w+)/$', views.createNewTransaction, name='createNewTransaction'),
+    url('^castVote/(?P<candidateId>\w+)/$', views.castNewVote, name='castNewVote'),
+    url('^newTransaction/$', views.receiveTransaction, name='receiveTransaction'),
+    url('^api/', include('network.api.urls'), name='api'),
 
 ]
