@@ -4,9 +4,11 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.renderers import TemplateHTMLRenderer
+from django.http import HttpResponse
 from network.serializers import BlockSerializer, PeerSerializer, TransactionSerializer
 from network.models import *
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
+
 
 @csrf_exempt
 class Blockchain(object):
@@ -35,23 +37,57 @@ def getBlockchain():
 @csrf_exempt
 def createBlock(request):
     transaction = json.loads(request.POST.get('transaction', None))
-    print(transaction)
+    #print(transaction)
     newTransaction = Transaction()
     newTransaction.createNewTransaction(transaction['voter_id'], transaction['candidate_hash'])
+    newTransaction.save()
 
     blockChain = getBlockchain()
-    print("Hello")
-    block = Block()
-    block.transaction = newTransaction
-    block.prev_hash = blockChain.blockList[-1].hash
-    block.nonce = 0
-    block.difficulty = 5
-    block.mineBlock()
 
-    #block.createNewBlock(newTransaction, blockChain.blockList[-1])
+    block = Block()
+    block.createNewBlock(newTransaction.transaction_id, blockChain.blockList[-1])
     blockSerializer = BlockSerializer(block)
-    block.save()
-    print("Hello There")
-    headers = request.get_success_headers(blockSerializer.data)
-    print(blockSerializer.data)
-    return Response(blockSerializer.data, status=status.HTTP_201_CREATED, headers=headers)
+    #block.save()
+
+    #print(json.dumps(blockSerializer.data))
+    context = {
+        'block': json.dumps(blockSerializer.data)
+    }
+    print(context['block'])
+    return HttpResponse(json.dumps(context))
+
+
+@csrf_exempt
+def verifyBlock(request):
+    block = json.loads(request.POST.get('block', None))
+
+    """newBlock = Block()
+    prevBlock = Block.objects.filter(hash=block['prev_hash'])[0]
+    newBlock.createNewBlock(block['transaction_id'], prevBlock)"""
+
+    blockChain = getBlockchain()
+    if len(blockChain.blockList) >= 3:
+        for i in range(1, len(blockChain.blockList)+1):
+            if(blockChain.blockList[i].hash == blockChain.blockList[i+1].prev_hash):
+                success = True
+            else:
+                success = False
+                break
+    else:
+        if(blockChain.blockList[-1] == block['prev_hash']):
+            success = True
+
+    if (success == True):
+        context = {
+            'success': True
+        }
+        return HttpResponse(json.dumps(context))
+    else:
+        context = {
+            'success': False
+        }
+        return HttpResponse(json.dumps(context))
+
+
+
+
