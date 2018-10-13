@@ -9,7 +9,7 @@ import json
 
 
 class Transaction(models.Model):
-    transaction_id = models.CharField(max_length=100)
+    transaction_id = models.CharField(max_length=100, primary_key=True)
     voter_id = models.CharField(max_length=100)
     salt = models.CharField(max_length=100)
     candidate_hash = models.CharField(max_length=100)
@@ -64,6 +64,7 @@ class Block(models.Model):
 
 
 class Peer(models.Model):
+    id = models.CharField(max_length=100, primary_key=True)
     name = models.CharField(max_length=255)
     address = models.CharField(max_length=255, unique=True)
 
@@ -71,6 +72,7 @@ class Peer(models.Model):
         return self.name + "@" + self.address
 
     def createNewPeer(self, name, address):
+        self.id = secrets.token_hex(10)
         self.name = name
         self.address = address
         return self

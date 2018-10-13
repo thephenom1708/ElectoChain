@@ -65,6 +65,7 @@ def verifyBlock(request):
     prevBlock = Block.objects.filter(hash=block['prev_hash'])[0]
     newBlock.createNewBlock(block['transaction_id'], prevBlock)"""
 
+    success = False
     blockChain = getBlockchain()
     if len(blockChain.blockList) >= 3:
         for i in range(1, len(blockChain.blockList)+1):
@@ -74,7 +75,7 @@ def verifyBlock(request):
                 success = False
                 break
     else:
-        if(blockChain.blockList[-1] == block['prev_hash']):
+        if(blockChain.blockList[-1].hash == block['prev_hash']):
             success = True
 
     if (success == True):

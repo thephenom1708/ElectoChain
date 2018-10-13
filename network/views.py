@@ -31,13 +31,15 @@ def broadcastTransaction(serializedTransaction, peer):
 
 
 @csrf_exempt
-def broadcastBlock(serializedBlock, peer):
+def broadcastBlock(serializedBlock, peer, validatePackets):
     context = {
         'block':json.dumps(serializedBlock.data)
     }
     address = "http://" + peer.address + "/network/api/verifyBlock/"
     response = requests.post(address, data=context)
-    return HttpResponse(response)
+    response = json.loads(response.content)
+    validatePackets.append(response)
+    return HttpResponse(json.dumps(response))
 
 
 class ThreadWithReturnValue(Thread):
@@ -58,28 +60,6 @@ class ThreadWithReturnValue(Thread):
 
 @csrf_exempt
 def castNewVote(request, candidateId):
-    """if candidateId is not None:
-        voterId = request.session['voterId']
-        currentVoter = ActiveVoter.objects.filter(voter_id=voterId)[0]
-        if currentVoter is not None:
-            #Transaction Creation...
-            newTransaction = Transaction()
-            newTransaction.createNewTransaction(currentVoter, candidateId)
-            newTransaction.save()
-            request.session['voteCasted'] = True
-            transaction = TransactionSerializer(newTransaction)
-            peerNodes = Peer.objects.filter()
-
-            a = []
-            for peer in peerNodes:
-                address = "http://" + peer.address + "/network/newTransaction/"
-                context = {
-                    'transaction': json.dumps(transaction.data)
-                }
-                response = requests.post(address, data=context)
-                a.append(response)
-            return HttpResponse(a[1])"""
-
     if candidateId is not None:
         voterId = request.session['voterId']
         currentVoter = ActiveVoter.objects.filter(voter_id=voterId)[0]
@@ -94,6 +74,7 @@ def castNewVote(request, candidateId):
             transaction = TransactionSerializer(newTransaction)
             peerNodes = Peer.objects.filter()
 
+            #transaction Broadcasting...
             threads = []
             for peer in peerNodes:
                 print("sending to ", peer.address)
@@ -118,25 +99,31 @@ def castNewVote(request, candidateId):
             else:
                 return HttpResponse("Block Mining Failed !!!")
 
-
+            #Block Broadcasting and Verifying...
             newBlock = Block()
             prevBlock = Block.objects.filter(hash=block['prev_hash'])[0]
             newBlock.createNewBlock(block['transaction_id'], prevBlock)
             blockSerializer = BlockSerializer(newBlock)
 
+            validatePackets = []
             for peer in peerNodes:
-                t = ThreadWithReturnValue(target=broadcastBlock, args=(blockSerializer, peer,))
+                t = ThreadWithReturnValue(target=broadcastBlock, args=(blockSerializer, peer, validatePackets))
                 threads.append(t)
 
-            validatePackets = []
             for thread in threads:
                 thread.start()
 
             for thread in threads:
-                responsePacket = thread.join()
-                validatePackets.append(responsePacket)
+                thread.join()
 
-            return HttpResponse(str(len(validatePackets)))
+            #Counting Success packets...
+            successPackets = 0
+            for packet in validatePackets:
+                print(packet)
+                if packet['success'] is True:
+                    successPackets += 1
+
+            return HttpResponse(str(successPackets))
 
 
 @csrf_exempt
