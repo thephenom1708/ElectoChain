@@ -42,6 +42,16 @@ def broadcastBlock(serializedBlock, peer, validatePackets):
     return HttpResponse(json.dumps(response))
 
 
+@csrf_exempt
+def blockAcception(serializedBlock, peer):
+    context = {
+        'block': json.dumps(serializedBlock.data)
+    }
+    address = "http://" + peer.address + "/network/api/blockAcception/"
+    requests.post(address, data=context)
+    return
+
+@csrf_exempt
 class ThreadWithReturnValue(Thread):
     def __init__(self, group=None, target=None, name=None, args=(), kwargs=None, *, daemon=None):
         Thread.__init__(self, group, target, name, args, kwargs, daemon=daemon)
@@ -118,12 +128,43 @@ def castNewVote(request, candidateId):
 
             #Counting Success packets...
             successPackets = 0
+            failurePackets = 0
+            successHost = None
+            failureHost = None
             for packet in validatePackets:
                 print(packet)
                 if packet['success'] is True:
                     successPackets += 1
+                    successHost = packet['host']
+                else:
+                    failurePackets += 1
+                    failureHost = packet['host']
 
-            return HttpResponse(str(successPackets))
+            #Block Acception and Fault Tolerance...
+            threads.clear()
+            if(successPackets >= failurePackets):
+                for peer in peerNodes:
+                    t = threading.Thread(target=blockAcception, args=(blockSerializer, peer))
+                    threads.append(t)
+
+                for thread in threads:
+                    thread.start()
+
+                for thread in threads:
+                    thread.join()
+
+                for packet in validatePackets:
+                    if packet['success'] is False:
+                        address = "http://" + successHost + "/network/api/requestBlockchain/"
+                        context = {
+                            'peer':packet['host']
+                        }
+                        requests.post(address, data=context)
+
+                return HttpResponse("Your vote has been successfully casted !!!")
+
+            else:
+                return HttpResponse("Your vote has not been casted ! Please try again !!!")
 
 
 @csrf_exempt

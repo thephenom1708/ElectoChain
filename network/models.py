@@ -44,7 +44,7 @@ class Block(models.Model):
         self.transaction_id = transactionId
         self.prev_hash = prevBlock.hash
         self.nonce = 0
-        self.difficulty = 5
+        self.difficulty = 4
         self.hash = self.generateHash()
         self.mineBlock()
         return self

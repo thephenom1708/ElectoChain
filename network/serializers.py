@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import Transaction, Block, Peer
 
 
+
 class TransactionSerializer(serializers.ModelSerializer):
 
     class Meta:

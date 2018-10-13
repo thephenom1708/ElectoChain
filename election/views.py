@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Election, Candidate
+from network.models import Block, Peer, Transaction
 from .forms import ElectionForm
+from .fusioncharts import FusionCharts
+from collections import OrderedDict
 import hashlib
 
 IMAGE_FILE_TYPES = ['png', 'jpg', 'jpeg']
@@ -103,7 +106,7 @@ def addCandidate(request, ecId):
 
         newCandidate.save()
         context = {
-            'ecId': 'ecId',
+            'ecId': ecId,
             'successMsg': 'New Candidate has been successfully added to election Id '
                           + newCandidate.candidate_election.election_id + ' !!!',
             'elections': elections
@@ -138,5 +141,62 @@ def candidateList(request, voterId):
             'errorMsg': 'You have already casted your vote !'
         }
         return render(request, 'election/candidateList.html', context)
+
+
+def getVoteCount(candidate):
+    blockList = Block.objects.filter()
+
+    voteCount = 0
+    for block in blockList:
+        transactionId = block.transaction_id
+        transaction = Transaction.objects.filter(transaction_id=transactionId)[0]
+
+        sha = hashlib.sha256()
+        data = candidate.candidate_id + transaction.salt
+        sha.update(data.encode('utf-8'))
+        hash = sha.hexdigest();
+
+        if(hash == transaction.candidate_hash):
+            voteCount += 1
+
+    return voteCount
+
+
+def resultAnalysis(request, ecId):
+    if ecId is not None:
+        chartConfig = OrderedDict()
+        chartConfig["caption"] = "Loksabha Elections : 2019"
+        chartConfig["subCaption"] = "The Voting count"
+        chartConfig["xAxisName"] = "Candidates"
+        chartConfig["yAxisName"] = "No. of Votes"
+        chartConfig["numberSuffix"] = ""
+        chartConfig["theme"] = "fusion"
+
+        currentElectionId = "feaaabeb4d6d00f5ec2c3eed5d6987566cbeedca9213d7be17534fa537fc0154"
+        currentElection = Election.objects.filter(election_id=currentElectionId)[0]
+        candidates = Candidate.objects.filter(candidate_election=currentElection)
+
+        chartData = OrderedDict()
+        for candidate in candidates:
+            count = getVoteCount(candidate)
+            chartData[candidate.candidate_name] = count
+
+        dataSource = {}
+        dataSource["chart"] = chartConfig
+        dataSource["data"] = []
+
+        for key, value in chartData.items():
+            data = {}
+            data["label"] = key
+            data["value"] = value
+            dataSource["data"].append(data)
+
+
+        column2D = FusionCharts("column2d", "myFirstChart", "800", "400", "myFirstchart-container", "json", dataSource)
+
+        return render(request, 'results/resultAnalysis.html', {
+            'output': column2D.render(),
+            'ecId': ecId
+        })
 
 

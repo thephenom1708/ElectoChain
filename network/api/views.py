@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from network.serializers import BlockSerializer, PeerSerializer, TransactionSerializer
 from network.models import *
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
-
+import requests
 
 @csrf_exempt
 class Blockchain(object):
@@ -33,13 +33,15 @@ def getBlockchain():
     return blockchain
 
 
-
 @csrf_exempt
 def createBlock(request):
     transaction = json.loads(request.POST.get('transaction', None))
     #print(transaction)
     newTransaction = Transaction()
-    newTransaction.createNewTransaction(transaction['voter_id'], transaction['candidate_hash'])
+    newTransaction.transaction_id = transaction['transaction_id']
+    newTransaction.voter_id = transaction['voter_id']
+    newTransaction.salt = transaction['salt']
+    newTransaction.candidate_hash = transaction['candidate_hash']
     newTransaction.save()
 
     blockChain = getBlockchain()
@@ -47,7 +49,6 @@ def createBlock(request):
     block = Block()
     block.createNewBlock(newTransaction.transaction_id, blockChain.blockList[-1])
     blockSerializer = BlockSerializer(block)
-    #block.save()
 
     #print(json.dumps(blockSerializer.data))
     context = {
@@ -60,10 +61,6 @@ def createBlock(request):
 @csrf_exempt
 def verifyBlock(request):
     block = json.loads(request.POST.get('block', None))
-
-    """newBlock = Block()
-    prevBlock = Block.objects.filter(hash=block['prev_hash'])[0]
-    newBlock.createNewBlock(block['transaction_id'], prevBlock)"""
 
     success = False
     blockChain = getBlockchain()
@@ -80,14 +77,56 @@ def verifyBlock(request):
 
     if (success == True):
         context = {
-            'success': True
+            'success': True,
+            'host': request.get_host()
         }
         return HttpResponse(json.dumps(context))
     else:
         context = {
-            'success': False
+            'success': False,
+            'host': request.get_host()
         }
         return HttpResponse(json.dumps(context))
+
+@csrf_exempt
+def blockAcception(request):
+    block = json.loads(request.POST.get('block', None))
+    if block is not None:
+        newBlock = Block()
+        newBlock.timestamp = block['timestamp']
+        newBlock.transaction_id = block['transaction_id']
+        newBlock.prev_hash = block['prev_hash']
+        newBlock.hash = block['hash']
+
+        newBlock.save()
+
+    return
+
+@csrf_exempt
+def requestBlockchain(request):
+    blockList = list(Block.objects.filter())
+
+    peerAddress = request.POST.get('peer', None)
+
+    address = "http://" + peerAddress + "/network/api/replaceBlockchain/"
+    context = {
+        'blockList': json.dumps(blockList)
+    }
+    requests.post(address, data=context)
+    return
+
+
+@csrf_exempt
+def replaceBlockchain(request):
+    blockList = json.loads(request.POST.get('blockList', None))
+
+    if blockList is not None:
+        Block.objects.all().delete()
+        for block in blockList:
+            block.save()
+
+    return
+
 
 
 
