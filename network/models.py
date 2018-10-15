@@ -78,11 +78,6 @@ class Peer(models.Model):
         return self
 
 
-class Check(models.Model):
-    port = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.port
 
 
 

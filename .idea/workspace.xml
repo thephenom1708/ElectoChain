@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024903df-38c4-4c90-9b78-1940ed3e2a5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/election/templates/results/resultAnalysis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/election/templates/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/migrations/0002_block.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectoChain/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElectoChain/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/templates/auth/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/templates/auth/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/election/templates/adminPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/election/templates/adminPanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/election/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/election/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/election/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/election/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,27 +45,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultAnalysis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/templates/results/resultAnalysis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/election/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,8 +57,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -107,23 +66,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/election/views.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/network/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="194" column="64" selection-start-line="194" selection-start-column="64" selection-end-line="194" selection-end-column="64" />
+            <state relative-caret-position="15">
+              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/templates/auth/header.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/election/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="480">
+              <caret line="179" column="36" lean-forward="true" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +95,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="696" column="30" lean-forward="true" selection-start-line="696" selection-start-column="30" selection-end-line="696" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +165,6 @@
         <option value="$PROJECT_DIR$/election/admin.py" />
         <option value="$PROJECT_DIR$/API/views.py" />
         <option value="$PROJECT_DIR$/election/templates/election/candidateList.html" />
-        <option value="$PROJECT_DIR$/network/admin.py" />
         <option value="$PROJECT_DIR$/network/utils.py" />
         <option value="$PROJECT_DIR$/ElectoChain/MultiDBModelAdmin.py" />
         <option value="$PROJECT_DIR$/auth/views.py" />
@@ -189,13 +174,14 @@
         <option value="$PROJECT_DIR$/ElectoChain/settings.py" />
         <option value="$PROJECT_DIR$/network/api/views.py" />
         <option value="$PROJECT_DIR$/network/views.py" />
-        <option value="$PROJECT_DIR$/network/models.py" />
         <option value="$PROJECT_DIR$/election/urls.py" />
         <option value="$PROJECT_DIR$/election/templates/adminPanel.html" />
         <option value="$PROJECT_DIR$/election/templates/results/resultAnalysis.html" />
         <option value="$PROJECT_DIR$/auth/templates/auth/header.html" />
         <option value="$PROJECT_DIR$/auth/templates/index.html" />
         <option value="$PROJECT_DIR$/election/views.py" />
+        <option value="$PROJECT_DIR$/network/models.py" />
+        <option value="$PROJECT_DIR$/network/admin.py" />
       </list>
     </option>
   </component>
@@ -232,13 +218,6 @@
             <path>
               <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
               <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
               <item name="election" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,6 +232,11 @@
               <item name="election" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,16 +487,6 @@
     <entry file="file://$PROJECT_DIR$/network/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -591,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth/templates/auth/formTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -612,16 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,16 +612,6 @@
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,10 +677,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/election/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="194" column="64" selection-start-line="194" selection-start-column="64" selection-end-line="194" selection-end-column="64" />
+        <state relative-caret-position="480">
+          <caret line="179" column="36" lean-forward="true" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
