@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <img class="thumbnail avatar" src="{{ voterInfo.profile_image.url }}"><br><br>
-                            <a class="btn btn-success btn-block" href="{% url 'election:candidateList' activeVoter.voter_id %}">Proceed to Vote...</a>
+                            <a class="btn btn-success btn-block" href="{% url 'election:candidateList' activeVoter.voter_id %}">Proceed to Vote</a>
                         </div>
                         <div class="col-md-9">
                             <span class="badge badge-danger">Authenticated: {{ activeVoter.has_authenticated }}</span>

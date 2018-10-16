@@ -24,10 +24,10 @@ def loginVoter(request):
         return render(request, 'auth/loginVoter.html')
     else:
         context = {
-            'errMsg': 'You are already Logged in !!!',
-            'redirectLink': 'index.html'
+            'errorMsg': 'You are already Logged in !!!',
+            'voterId': request.session['voterId']
         }
-        return render (request, 'auth/error.html', context)
+        return render (request, 'auth/loginVoter.html', context)
 
 
 
@@ -46,7 +46,6 @@ def logout(request):
     else:
         context = {
             'errMsg': 'Invalid Logout request !!!',
-            'redirectLink': 'index.html'
         }
         return render(request, 'auth/error.html', context)
 

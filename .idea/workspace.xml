@@ -2,9 +2,630 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024903df-38c4-4c90-9b78-1940ed3e2a5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/templates/auth/loginVoter.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/templates/auth/loginVoter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/templates/auth/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/templates/auth/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/css/fusiondesign.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/fusion-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/fusion-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcecodepro-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcecodepro-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcecodepro-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcecodepro-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-bold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-bold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-bold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-boldit-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-boldit-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-boldit-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-boldit-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-it-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-it-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-it-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-it-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-light-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-light-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-light-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-lightit-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-lightit-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-lightit-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-lightit-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semibold-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semibold-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semibold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semibold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semiboldit-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semiboldit-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semiboldit-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/fonts/sourcesanspro-semiboldit-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/angular-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/angular-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/asp-net.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/chart-gallery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/django.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/fc-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/fcxt-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/fm-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/fw-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/java.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/jquery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/pc-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/php.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/ror.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/images/vue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/assets/scripts/fusiondesign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angular/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angularjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angularjs/js/angular-fusioncharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angularjs/js/angular-fusioncharts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/angularjs/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Converters.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Converters.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Css.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Css.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Dom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Dom.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Model.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Model.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Gdi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Bin/FusionCharts.SharpVectors.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Exported_Images/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/FCExporter.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/FCExporter.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/chart-export-handler/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/fusioncharts-wrapper-assembly/FusionCharts.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/fusioncharts-wrapper-assembly/FusionCharts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/fusioncharts-wrapper-source/FusionCharts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Bin/FusionCharts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Bin/FusionCharts.dll.refresh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Data/jsonData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Data/xmlData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Default.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Default.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/AngularGauge.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/AngularGauge.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartAnnotations.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartAnnotations.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartExportByExportHandler.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartExportByExportHandler.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartInstanceLevelAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartInstanceLevelAPI.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartLanguage.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartLanguage.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartMessageExample.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartMessageExample.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartSpclChar.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartSpclChar.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartTooltipCustomization.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartTooltipCustomization.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartUpdateOnClick.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartUpdateOnClick.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ChartWithXmlData.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ClientSide_Export_Enabled.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ClientSide_Export_Enabled.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/CommonThemeUsage.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/CommonThemeUsage.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DataBaseExample.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DataBaseExample.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DrillDown.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DrillDown.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DynamicChartType.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/DynamicChartType.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstChart.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstChart.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstGauge.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstGauge.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstMap.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/FirstMap.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/GetDataSelectScatterChart.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/GetDataSelectScatterChart.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/Handler/Handler.ashx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/HighlightDataPoint.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/HighlightDataPoint.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/InteractiveEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/InteractiveEvent.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/JsonUrlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/JsonUrlData.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MSCombi3D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MSCombi3D.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MapWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MapWithXmlData.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MsColumn2d.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/MsColumn2d.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/NumberFormatModule.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/NumberFormatModule.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/Pie3D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/Pie3D.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ProductLevelAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ProductLevelAPI.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ProductLifeCycleEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/ProductLifeCycleEvent.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/RenderCharWithPercentageWidthHeight.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/RenderCharWithPercentageWidthHeight.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/SpecialChartTypeAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/SpecialChartTypeAPI.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/SpecialEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/SpecialEvent.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/StackedColumn2DLine.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/StackedColumn2DLine.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/UpdateDataRuntime.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/UpdateDataRuntime.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/UsaMap.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/UsaMap.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/WidgetWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/WidgetWithXmlData.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/XmlDataUrl.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Pages/XmlDataUrl.aspx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Sql-Dump/sales_records_mssql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Styles/SampleStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-cs/samples/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Converters.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Converters.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Css.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Css.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Dom.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Dom.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Model.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Model.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Gdi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Bin/FusionCharts.SharpVectors.Runtime.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Exported_Images/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/FCExporter.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/FCExporter.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/chart-export-handler/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/fusioncharts-wrapper-assembly/FusionCharts.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/fusioncharts-wrapper-assembly/FusionCharts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/fusioncharts-wrapper-source/FusionCharts.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Bin/FusionCharts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Bin/FusionCharts.dll.refresh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Data/jsonData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Data/xmlData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Default.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Default.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/AngularGauge.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/AngularGauge.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartAnnotation.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartAnnotation.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartExportByExportHandler.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartExportByExportHandler.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartInstanceLevelAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartInstanceLevelAPI.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartLanguage.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartLanguage.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartMessageExample.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartMessageExample.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartSpclChar.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartSpclChar.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartTooltipCustomization.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartTooltipCustomization.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartUpdateOnClick.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartUpdateOnClick.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ChartWithXmlData.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ClientSideExportEnabled.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ClientSideExportEnabled.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/CommonThemeUsage.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/CommonThemeUsage.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DataBaseExample.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DataBaseExample.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DrillDown.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DrillDown.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DynamicChartTypeChange.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/DynamicChartTypeChange.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstChart.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstChart.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstGauge.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstGauge.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstMap.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/FirstMap.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/GetDataSelectScatterChart.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/GetDataSelectScatterChart.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/Handler/Handler.ashx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/HighlightDataPoint.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/HighlightDataPoint.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/InteractiveEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/InteractiveEvent.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/JsonDataUrl.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/JsonDataUrl.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MSCOlumn2D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MSCOlumn2D.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MSCombi3D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MSCombi3D.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MapWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/MapWithXmlData.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/NumberFormatModule.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/NumberFormatModule.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/Pie3D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/Pie3D.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ProductLevelAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ProductLevelAPI.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ProductLifeCycleEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/ProductLifeCycleEvent.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/RenderCharWithPercentageWidthHeight.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/RenderCharWithPercentageWidthHeight.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/SpecialChartTypeAPI.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/SpecialChartTypeAPI.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/SpecialEvent.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/SpecialEvent.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/StackedColumnLine2D.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/StackedColumnLine2D.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/UpdateDataRuntTime.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/UsaMap.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/UsaMap.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/WidgetWithXmlData.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/WidgetWithXmlData.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/XmlDataUrl.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Pages/XmlDataUrl.aspx.vb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Sql-Dump/sales_records_mssql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Styles/ChartSampleStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/asp.net-vb/samples/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/fusioncharts-wrapper/fusioncharts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/datahandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/fusioncharts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_annotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_instance_level_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_product_level_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_special_chart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_tooltip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/chart_update_onclick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/client_side_chart_export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/drilldown_from_database_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/dynamic_chart_resize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/dynamic_chart_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/export_chart_using_export_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/fetching_data_from_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/fetching_json_data_from_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/fetching_xml_data_from_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/get_data_from_scatter_chart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/highlight_specific_data_points.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/interactive_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/number_format_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/product_life_cycle_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_angular_gauge_using_dictionary_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_angular_gauge_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_chart_with_different_language.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_charts_by_common_theme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_column2d_chart_using_dictionary_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_column_line_area_combi_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_map_using_dictionary_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_map_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_multiseries_StackedColumn2dline_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_multiseries_column2d_chart_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/rendering_pie3d_using_json_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/special_chart_type_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/special_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/update_data_runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/samples/updating_chart_properties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/catalogue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/chart-instance-level-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/chart-product-level-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/chart-theme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/chart-update-onclick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/data-from-scatter-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/dynamic-chart-type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/dynamic-resize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/interactive-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/number-format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/product-life-cycle-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/special-chart-type-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/special-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/static/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/static/data/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/templates/update-data-runtime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/fusioncharts/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/django/samples/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/ember/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/ember/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/chart-export-handler/fcexporter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/chart-export-handler/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/fusioncharts-wrapper/FusionCharts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/Data/jsonData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/Data/xmlData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/Index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/Styles/ChartSampleStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/WEB-INF/FusionCharts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/WEB-INF/lib/com.mysql.jdbc_5.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/WEB-INF/lib/servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartAnnotations.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartExportByExportHandler.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartInstanceLevelAPI.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartLanguage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartMessageExample.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartResize.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartSpclChar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartTooltipCustomization.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ChartUpdateOnClick.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/CommonTheme.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/DynamicChartType.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/GetDataSelectScatterChart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/Handler/RequestHandler.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/InteractiveEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/MSColumn2D.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/NumberFormatModule.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ProductLevelAPI.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/ProductLifeCycleEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/SpecialChartTypeAPI.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/SpecialEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/StackedColumn2DLinr.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/UpdateDataRunTime.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/angulargauge.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/chartClientSideExport.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/dataBaseExample.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/drillDown.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/first_chart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/gauge.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/jsonUrlData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/map.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/msCombi3d.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/pie3d.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/usa_map.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/jsp/xmlUrlData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/java/samples/WebContent/mysql-dump/drilldownsdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/jquery/js/jquery-fusioncharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/jquery/js/jquery-fusioncharts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/jquery/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/chart-export-handler/FCExporter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/chart-export-handler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/chart-export-handler/Resources/FCExporter_RLE2IMG.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/chart-export-handler/Resources/FCExporter_RLE2PDF.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/chart-export-handler/Resources/FCExporter_SVG2ALL.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/fusioncharts-wrapper/fusioncharts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/includes/fusioncharts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/mysql-dump/drilldownsdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/angular-gauge-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-annotation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-export-at-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-export-at-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-from-json-url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-from-xml-url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-instance-level-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-product-level-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-special-char.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/chart-themes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/customizing-tooltip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/data/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/different-language.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/drilldown-data-handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/drilldown.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/dynamic-chart-resize.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/dynamic-chart-type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/get-data-from-scatter-chart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/highlight-specific-data-points.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/interactive-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/mscolumn2d-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/mscombi3d-chart-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/number-format.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/pie3d-chart-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/product-life-cycle-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/simple-chart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/simple-gauge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/simple-map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/special-chart-type-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/special-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/stacked-column2d-line-chart-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/update-data-runtime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/updating-chart-properties.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/updating-different-chart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/php/samples/pages/usa-map-sample.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/react/js/react-fusioncharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/react/js/react-fusioncharts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/react/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/MIT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/assets/javascripts/fusioncharts_exporter/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/assets/javascripts/fusioncharts_exporter/exporter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/assets/stylesheets/fusioncharts_exporter/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/assets/stylesheets/fusioncharts_exporter/exporter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/controllers/fusioncharts_exporter/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/controllers/fusioncharts_exporter/exporter_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/helpers/fusioncharts_exporter/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/helpers/fusioncharts_exporter/exporter_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/models/fusioncharts_exporter/export.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/app/views/layouts/fusioncharts_exporter/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/fusioncharts_exporter.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/fusioncharts_exporter/engine.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/fusioncharts_exporter/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/generators/fusioncharts_exporter/install/USAGE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/generators/fusioncharts_exporter/install/install_generator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/generators/fusioncharts_exporter/install/templates/fusioncharts_exporter.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/chart-export-handler/lib/tasks/fusioncharts_exporter_tasks.rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/fusioncharts-wrapper/fusioncharts-rails.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/fusioncharts-wrapper/fusioncharts/rails.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/fusioncharts-wrapper/fusioncharts/rails/chart.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/fusioncharts-wrapper/fusioncharts/rails/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/fusioncharts-wrapper/templates/chart.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/javascripts/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/javascripts/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/javascripts/samples.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/assets/stylesheets/samples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/controllers/samples_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/helpers/samples_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/models/sales_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/angular-gauge-sample.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-annotation.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-data-highlight.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-database.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-export-at-server.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-export.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-from-json-url.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-from-xml-url.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-instancelevel-api.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-interactive-event.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-language.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-life-cycle-event.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-message-example.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-number-format-module.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-product-level-api.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-resize.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-special-char.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-special-event.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-themes.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-tooltip.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/chart-update-onclick.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/drilldown.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/dynamic-chartype-change.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/first-chart.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/first-map.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/first-widget.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/get-data-select-scatter-chart.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/mscolumn2d-sample.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/mscombi3d-sample.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/pie3d-sample.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/special-charttype-api.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/stacked-column2d-line-chart-sample.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/test.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/update-data-runtime.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/app/views/samples/usa-map-sample.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/content_security_policy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/master.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/config/storage.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/db/development.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/db/migrate/20180725092631_create_sales_records.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/angular_gauge.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/drill_down_data_handler.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/drilldown.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/first_chart.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/first_map.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/first_widget.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/fusioncharts-rails.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/fusioncharts/rails.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/fusioncharts/rails/chart.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/fusioncharts/rails/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/handler.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/mscolumn2d.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/lib/templates/chart.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/log/development.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/data/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/data/drill-down.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/test/controllers/samples_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/test/fixtures/sales_records.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/test/models/sales_record_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/rubyonrails/samples/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/vue/js/vue-fusioncharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/vue/js/vue-fusioncharts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/integrations/vue/sample/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.gantt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.maps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.overlappedbar2d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.overlappedcolumn2d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.powercharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.treemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.vml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.widgets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.zoomline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/fusioncharts.zoomscatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/maps/fusioncharts.usa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/maps/fusioncharts.world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/maps/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.candy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.carbon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.fint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.fusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.gammel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.ocean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/js/themes/fusioncharts.theme.zune.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusioncharts-suite-xt/license/FusionCharts Suite License Agreement - Evaluation.rtf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,109 +636,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminPanel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/templates/adminPanel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_admin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/templates/base/base_admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/network/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/election/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="179" column="36" lean-forward="true" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
+            <state relative-caret-position="2685">
+              <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="696" column="30" lean-forward="true" selection-start-line="696" selection-start-column="30" selection-end-line="696" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/api/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +667,6 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/auth/apps.py" />
         <option value="$PROJECT_DIR$/election/static/css/candidate.css" />
-        <option value="$PROJECT_DIR$/auth/templates/auth/profile.html" />
         <option value="$PROJECT_DIR$/election/templates/candidateList.html" />
         <option value="$PROJECT_DIR$/auth/admin.py" />
         <option value="$PROJECT_DIR$/auth/urls.py" />
@@ -151,7 +675,6 @@
         <option value="$PROJECT_DIR$/auth/templates/auth/addAdmin.html" />
         <option value="$PROJECT_DIR$/auth/templates/auth/loginAdmin.html" />
         <option value="$PROJECT_DIR$/auth/static/home/js/error.js" />
-        <option value="$PROJECT_DIR$/auth/templates/auth/loginVoter.html" />
         <option value="$PROJECT_DIR$/election/templates/createElection.html" />
         <option value="$PROJECT_DIR$/auth/models.py" />
         <option value="$PROJECT_DIR$/auth/templates/auth/error.html" />
@@ -167,7 +690,6 @@
         <option value="$PROJECT_DIR$/election/templates/election/candidateList.html" />
         <option value="$PROJECT_DIR$/network/utils.py" />
         <option value="$PROJECT_DIR$/ElectoChain/MultiDBModelAdmin.py" />
-        <option value="$PROJECT_DIR$/auth/views.py" />
         <option value="$PROJECT_DIR$/network/api/urls.py" />
         <option value="$PROJECT_DIR$/network/serializers.py" />
         <option value="$PROJECT_DIR$/network/urls.py" />
@@ -182,10 +704,13 @@
         <option value="$PROJECT_DIR$/election/views.py" />
         <option value="$PROJECT_DIR$/network/models.py" />
         <option value="$PROJECT_DIR$/network/admin.py" />
+        <option value="$PROJECT_DIR$/auth/templates/auth/profile.html" />
+        <option value="$PROJECT_DIR$/auth/templates/auth/loginVoter.html" />
+        <option value="$PROJECT_DIR$/auth/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="43" />
     <option name="y" value="25" />
     <option name="width" value="1323" />
@@ -197,6 +722,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,17 +733,6 @@
             <path>
               <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
               <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
               <item name="election" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,24 +740,11 @@
               <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
               <item name="election" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="election" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,21 +798,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="25" width="1323" height="743" extended-state="6" />
+    <frame x="43" y="25" width="1323" height="743" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.21848081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.22239624" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" weight="0.32967892" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011746" side_tool="true" weight="0.5229508" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.21848081" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49882537" weight="0.5442623" />
-      <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.21534847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.21534847" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -383,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/auth/loginAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/download_lHKd4GK.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -407,16 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/auth/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -447,37 +932,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/API/admin.py" />
+    <entry file="file://$PROJECT_DIR$/API/apps.py" />
+    <entry file="file://$PROJECT_DIR$/API/models.py" />
+    <entry file="file://$PROJECT_DIR$/API/tests.py" />
     <entry file="file://$PROJECT_DIR$/network/Transaction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,16 +952,7 @@
     <entry file="file://$PROJECT_DIR$/network/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/API/views.py" />
     <entry file="file://$PROJECT_DIR$/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -508,9 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,19 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,9 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/auth/loginVoter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election/templates/election/candidateList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -590,9 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,9 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,24 +1047,10 @@
     <entry file="file://$PROJECT_DIR$/election/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/templates/base/base_admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/templates/adminPanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -661,10 +1068,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/network/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auth/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="696" column="30" lean-forward="true" selection-start-line="696" selection-start-column="30" selection-end-line="696" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="696" column="30" selection-start-line="696" selection-start-column="30" selection-end-line="696" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -675,52 +1119,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="179" column="36" lean-forward="true" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/admin.py">
+    <entry file="file://$PROJECT_DIR$/election/templates/base/base_admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/templates/auth/loginAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/templates/adminPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/templates/auth/loginVoter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/templates/auth/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="147" lean-forward="true" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

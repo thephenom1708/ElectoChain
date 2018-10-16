@@ -2,32 +2,46 @@
 {% block title %}ElectoChain: Voter Login{% endblock %}
 
 {% block body %}
-    {% if validate is False %}
-    <div class="alert alert-dismissible alert-danger">
-        <strong>Invalid Voter Credentials !</strong><span> Try Again !!!</span>
-    </div>
-    {% endif %}
-    <div class="jumbotron">
-        <form method="post" action="{% url 'auth:validateVoter' %}">
-            {% csrf_token %}
-            <fieldset>
-                <legend><h1 class="display-4">Voter Authentication</h1></legend>
-                <div class="form-group">
-                    <label for="thumbId"><b>Thumb Impression ID</b></label>
-                    <input type="text" class="form-control" id="thumbId"
-                           name="thumbId" placeholder="Enter the Thumb Impression Id..." required>
-                </div>
 
-                <div class="form-group">
-                    <label for="aadhaarId"><b>Aadhaar ID</b></label>
-                    <input type="text" class="form-control" id="aadhaarId"
-                           name="aadhaarId" placeholder="Enter the Aadhaar Id...">
-                </div>
+     {% if errorMsg %}
+         <div class="alert alert-dismissible alert-danger">
+             <strong>{{ errorMsg }}</strong>
+         </div>
+        <div class="row">
+            <div class="col-md-3 offset-4">
+                <a class="btn btn-success btn-block" href="{% url 'election:candidateList' voterId %}">Proceed to Vote</a>
+            </div>
+        </div>
 
-                <div class="form-group">
-                    <input type="submit" class="btn btn-primary btn-lg" value="Verify !" required>
-                </div>
-            </fieldset>
-        </form>
-    </div>
+    {% else %}
+
+        {% if validate is False %}
+        <div class="alert alert-dismissible alert-danger">
+            <strong>Invalid Voter Credentials !</strong><span> Try Again !!!</span>
+        </div>
+        {% endif %}
+        <div class="jumbotron">
+            <form method="post" action="{% url 'auth:validateVoter' %}">
+                {% csrf_token %}
+                <fieldset>
+                    <legend><h1 class="display-4">Voter Authentication</h1></legend>
+                    <div class="form-group">
+                        <label for="thumbId"><b>Thumb Impression ID</b></label>
+                        <input type="text" class="form-control" id="thumbId"
+                               name="thumbId" placeholder="Enter the Thumb Impression Id..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="aadhaarId"><b>Aadhaar ID</b></label>
+                        <input type="text" class="form-control" id="aadhaarId"
+                               name="aadhaarId" placeholder="Enter the Aadhaar Id...">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Verify !" required>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+     {% endif %}
 {% endblock %}
