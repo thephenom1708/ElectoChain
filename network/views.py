@@ -164,7 +164,7 @@ def castNewVote(request, candidateId):
                 return HttpResponse("Your vote has been successfully casted !!!")
 
             else:
-                return HttpResponse("Your vote has not been casted ! Please try again !!!")
+                return HttpResponse("Your vote has not been casted ! Please try again !!!" + str(failurePackets))
 
 
 @csrf_exempt
