@@ -170,7 +170,7 @@ def resultAnalysis(request, ecId):
         chartConfig["xAxisName"] = "Candidates"
         chartConfig["yAxisName"] = "No. of Votes"
         chartConfig["numberSuffix"] = ""
-        chartConfig["theme"] = "fusion"
+        chartConfig["theme"] = "candy"
 
         currentElectionId = "feaaabeb4d6d00f5ec2c3eed5d6987566cbeedca9213d7be17534fa537fc0154"
         currentElection = Election.objects.filter(election_id=currentElectionId)[0]

@@ -4,7 +4,7 @@
 {% block head %}
     {% load static %}
     <script type="text/javascript" src=" http://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-    <script type="text/javascript" src=" http://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+    <script type="text/javascript" src=" http://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.candy.js"></script>
 {% endblock %}
 
 {% block body %}
@@ -17,7 +17,9 @@
 
     <section id="result">
         <div class="jumbotron">
-            <div id="myFirstchart-container">{{ output|safe }}</div>
+            <center>
+                <div id="myFirstchart-container">{{ output|safe }}</div>
+            </center>
         </div>
     </section>
 
