@@ -72,11 +72,7 @@
 					<li><a href="{% url 'auth:index' %}">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#team">Team</a></li>
-					<li class="has-dropdown"><a href="#blog">Blog</a>
-						<ul class="dropdown">
-							<li><a href="blog-single.html">blog post</a></li>
-						</ul>
-					</li>
+					<li><a href="#blog">Blog</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -168,119 +164,6 @@
 	<!-- /About -->
 
 
-	<!-- Portfolio -->
-	<div id="portfolio" class="section md-padding bg-grey">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Featured Works</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work1.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work2.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work3.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work4.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work5.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work6.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-			</div>
-			<!-- /Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Portfolio -->
 
 	<!-- Service -->
 	<div id="service" class="section md-padding">
@@ -404,10 +287,10 @@
 				<!-- About slider -->
 				<div class="col-md-6">
 					<div id="about-slider" class="owl-carousel owl-theme">
-						<img class="img-responsive" src="./img/about1.jpg" alt="">
-						<img class="img-responsive" src="./img/about2.jpg" alt="">
-						<img class="img-responsive" src="./img/about1.jpg" alt="">
-						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="{% static 'img/about1.jpg' %}" alt="">
+						<img class="img-responsive" src="{% static 'img/about2.jpg' %}" alt="">
+						<img class="img-responsive" src="{% static 'img/about1.jpg' %}" alt="">
+						<img class="img-responsive" src="{% static 'img/about2	.jpg' %}" alt="">
 					</div>
 				</div>
 				<!-- /About slider -->
@@ -486,117 +369,12 @@
 	</div>
 	<!-- /Numbers -->
 
-	<!-- Pricing -->
-	<div id="pricing" class="section md-padding">
-
-		<!-- Container -->
-		<div class="container">
-
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Pricing Table</h2>
-				</div>
-				<!-- /Section header -->
-
-				<!-- pricing -->
-				<div class="col-sm-4">
-					<div class="pricing">
-						<div class="price-head">
-							<span class="price-title">Basic plan</span>
-							<div class="price">
-								<h3>$9<span class="duration">/ month</span></h3>
-							</div>
-						</div>
-						<ul class="price-content">
-							<li>
-								<p>1GB Disk Space</p>
-							</li>
-							<li>
-								<p>100 Email Account</p>
-							</li>
-							<li>
-								<p>24/24 Support</p>
-							</li>
-						</ul>
-						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
-						</div>
-					</div>
-				</div>
-				<!-- /pricing -->
-
-				<!-- pricing -->
-				<div class="col-sm-4">
-					<div class="pricing">
-						<div class="price-head">
-							<span class="price-title">Silver plan</span>
-							<div class="price">
-								<h3>$19<span class="duration">/ month</span></h3>
-							</div>
-						</div>
-						<ul class="price-content">
-							<li>
-								<p>1GB Disk Space</p>
-							</li>
-							<li>
-								<p>100 Email Account</p>
-							</li>
-							<li>
-								<p>24/24 Support</p>
-							</li>
-						</ul>
-						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
-						</div>
-					</div>
-				</div>
-				<!-- /pricing -->
-
-				<!-- pricing -->
-				<div class="col-sm-4">
-					<div class="pricing">
-						<div class="price-head">
-							<span class="price-title">Gold plan</span>
-							<div class="price">
-								<h3>$39<span class="duration">/ month</span></h3>
-							</div>
-						</div>
-						<ul class="price-content">
-							<li>
-								<p>1GB Disk Space</p>
-							</li>
-							<li>
-								<p>100 Email Account</p>
-							</li>
-							<li>
-								<p>24/24 Support</p>
-							</li>
-						</ul>
-						<div class="price-btn">
-							<button class="outline-btn">Purchase now</button>
-						</div>
-					</div>
-				</div>
-				<!-- /pricing -->
-
-			</div>
-			<!-- Row -->
-
-		</div>
-		<!-- /Container -->
-
-	</div>
-	<!-- /Pricing -->
-
 
 	<!-- Testimonial -->
 	<div id="testimonial" class="section md-padding">
 
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+		<div class="bg-img" style="background-image: url('{% static 'img/background3.jpg' %}');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -614,9 +392,9 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/perso1.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="{% static 'img/kaivalya.jpg' %}" alt="">
+								<h3 class="white-text">Kaivalya Mendki</h3>
+								<span>Full-Stack Developer</span>
 							</div>
 							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
 						</div>
@@ -625,9 +403,9 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/perso2.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="{% static 'img/abhishek.jpg' %}" alt="">
+								<h3 class="white-text">Abhishek Kotkar</h3>
+								<span>Web Developer</span>
 							</div>
 							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
 						</div>
@@ -662,10 +440,31 @@
 				<!-- /Section header -->
 
 				<!-- team -->
-				<div class="col-sm-6">
+				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<img class="img-responsive" src="{% static 'img/abhishek.jpg' %}" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Abhishek Kotkar</h3>
+							<span>Web Developer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="{% static 'img/kaivalya.jpg' %}" alt="">
 							<div class="overlay">
 								<div class="team-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -680,34 +479,12 @@
 						</div>
 					</div>
 				</div>
-				<!-- /team -->
 
-				<!-- team -->
-				<div class="col-sm-6">
-					<div class="team">
-						<div class="team-img">
-							<img class="img-responsive" src="./img/team2.jpg" alt="">
-							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-content">
-							<h3>Abhishek Kotkar</h3>
-							<span>Backend Web Developer</span>
-						</div>
-					</div>
-				</div>
-				<!-- /team -->
 
-				<!-- team
 				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<img class="img-responsive" src="{% static 'img/aditya.jpg' %}" alt="">
 							<div class="overlay">
 								<div class="team-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -717,8 +494,8 @@
 							</div>
 						</div>
 						<div class="team-content">
-							<h3>John Doe</h3>
-							<span>Web Designer</span>
+							<h3>Aditya Bonde</h3>
+							<span>Algorithm Designer</span>
 						</div>
 					</div>
 				</div>-->
@@ -752,7 +529,7 @@
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
-							<img class="img-responsive" src="./img/blog1.jpg" alt="">
+							<img class="img-responsive" src="{% static 'img/blog1.jpg' %}" alt="">
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
@@ -772,7 +549,7 @@
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
-							<img class="img-responsive" src="./img/blog2.jpg" alt="">
+							<img class="img-responsive" src="{% static 'img/blog2.jpg' %}" alt="">
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
@@ -792,7 +569,7 @@
 				<div class="col-md-4">
 					<div class="blog">
 						<div class="blog-img">
-							<img class="img-responsive"  src="./img/blog3.jpg" alt="">
+							<img class="img-responsive"  src="{% static 'img/blog3.jpg' %}" alt="">
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
@@ -837,7 +614,7 @@
 					<div class="contact">
 						<i class="fa fa-phone"></i>
 						<h3>Phone</h3>
-						<p>512-421-3940</p>
+						<p>8600611198</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -847,7 +624,7 @@
 					<div class="contact">
 						<i class="fa fa-envelope"></i>
 						<h3>Email</h3>
-						<p>email@support.com</p>
+						<p>kmendki98@gmail.com</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -857,7 +634,7 @@
 					<div class="contact">
 						<i class="fa fa-map-marker"></i>
 						<h3>Address</h3>
-						<p>1739 Bubby Drive</p>
+						<p>Walchand College of Engineering, Sangli</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -897,7 +674,7 @@
 
 					<!-- footer logo -->
 					<div class="footer-logo">
-						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+						<a href="index.html"><img src="{% static 'home/img/logo-alt.png' %}" alt="logo"></a>
 					</div>
 					<!-- /footer logo -->
 
@@ -911,12 +688,6 @@
 						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 					</ul>
 					<!-- /footer follow -->
-
-					<!-- footer copyright -->
-					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-					</div>
-					<!-- /footer copyright -->
 
 				</div>
 

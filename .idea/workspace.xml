@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024903df-38c4-4c90-9b78-1940ed3e2a5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/about1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/about1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/about2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/about2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/author.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/author.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/background1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/background1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/background2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/background2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/background3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/background3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/blog-post.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/blog-post.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/blog1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/blog1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/blog2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/blog2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/blog3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/blog3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/logo-alt.png" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/logo-alt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/perso1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/perso1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/perso2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/perso2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/post1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/post1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/post2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/post2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/post3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/post3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/team1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/team1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/team2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/team2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/team3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/team3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/static/home/img/work6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/auth/static/img/work6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="74">
               <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -38,14 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/api/views.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/templates/auth/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
             </state>
           </provider>
         </entry>
@@ -54,7 +96,19 @@
         <entry file="file://$PROJECT_DIR$/network/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +160,6 @@
         <option value="$PROJECT_DIR$/election/templates/adminPanel.html" />
         <option value="$PROJECT_DIR$/election/templates/results/resultAnalysis.html" />
         <option value="$PROJECT_DIR$/auth/templates/auth/header.html" />
-        <option value="$PROJECT_DIR$/auth/templates/index.html" />
         <option value="$PROJECT_DIR$/election/views.py" />
         <option value="$PROJECT_DIR$/auth/templates/auth/profile.html" />
         <option value="$PROJECT_DIR$/auth/templates/auth/loginVoter.html" />
@@ -118,6 +171,8 @@
         <option value="$PROJECT_DIR$/network/api/views.py" />
         <option value="$PROJECT_DIR$/network/api/urls.py" />
         <option value="$PROJECT_DIR$/network/views.py" />
+        <option value="$PROJECT_DIR$/auth/static/home/css/style.css" />
+        <option value="$PROJECT_DIR$/auth/templates/index.html" />
       </list>
     </option>
   </component>
@@ -143,13 +198,26 @@
             <path>
               <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
               <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
               <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ElectoChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElectoChain" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,15 +231,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/election/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth/static" />
+      <recent name="$PROJECT_DIR$/auth/templates" />
       <recent name="$PROJECT_DIR$/election" />
       <recent name="$PROJECT_DIR$/election/templates/results" />
       <recent name="$PROJECT_DIR$/network" />
-      <recent name="$PROJECT_DIR$/election/templates/election" />
-      <recent name="$PROJECT_DIR$/election/static/js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/election/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,70 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/static/home/js/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/auth/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/download_lHKd4GK.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/templates/election/formTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/templates/election/createElection.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -455,13 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="696" column="30" selection-start-line="696" selection-start-column="30" selection-end-line="696" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -494,13 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/templates/auth/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="20" column="147" lean-forward="true" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
         </state>
       </provider>
     </entry>
@@ -555,29 +546,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/network/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/templates/auth/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="20" column="147" selection-start-line="20" selection-start-column="147" selection-end-line="20" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/work1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/logo-alt.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/background1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/background2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/img/background3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="161" column="33" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/css/owl.theme.default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/css/owl.carousel.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/css/magnific-popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/static/home/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/network/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/api/urls.py">
+    <entry file="file://$PROJECT_DIR$/auth/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+        <state relative-caret-position="300">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
