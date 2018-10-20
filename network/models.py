@@ -78,6 +78,13 @@ class Peer(models.Model):
         return self
 
 
+class Lock(models.Model):
+    lock = models.BooleanField(default=False)
+
+    def __str__(self):
+        return str(self.lock)
+
+
 
 
 

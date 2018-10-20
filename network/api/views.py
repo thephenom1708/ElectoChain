@@ -10,6 +10,27 @@ from network.models import *
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 import requests
 
+
+@csrf_exempt
+def requestLock(request):
+    lockObject = Lock.objects.filter()[0]
+    if lockObject.lock is False:
+        Lock.objects.all().delete()
+        lockObject = Lock()
+        lockObject.lock = True
+        lockObject.save()
+        context = {
+            'success': True
+        }
+    else:
+        context = {
+            'success': False
+        }
+
+    return HttpResponse(json.dumps(context))
+
+
+
 @csrf_exempt
 class Blockchain(object):
 
