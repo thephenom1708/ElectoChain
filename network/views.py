@@ -99,7 +99,12 @@ def castNewVote(request, candidateId):
             response = requestLock()
             response = json.loads(response.content)
             checkLock = response['success']
-            print("Response : " + str(checkLock))
+
+            while(checkLock is not True):
+                response = requestLock()
+                response = json.loads(response.content)
+                checkLock = response['success']
+
             if checkLock is True:
                 newTransaction = Transaction()
                 newTransaction.createNewTransaction(voterId, candidateId)
