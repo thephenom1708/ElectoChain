@@ -21,11 +21,18 @@ from threading import Thread
 
 @csrf_exempt
 def requestLock():
-    centralizedLockPeer = "127.0.0.1:8000"
+    centralizedLockPeer = "192.168.43.59:9000"
     address = "http://" + centralizedLockPeer + "/network/api/requestLock/"
     response = requests.post(address)
     response = json.loads(response.content)
     return HttpResponse(json.dumps(response))
+
+
+@csrf_exempt
+def freeLock():
+    centralizedLockPeer = "192.168.43.59:9000"
+    address = "http://" + centralizedLockPeer + "/network/api/freeLock/"
+    response = requests.post(address)
 
 
 @csrf_exempt
@@ -179,11 +186,7 @@ def castNewVote(request, candidateId):
                             }
                             requests.post(address, data=context)
 
-                    Lock.objects.all().delete()
-                    lockObject = Lock()
-                    lockObject.lock = False
-                    lockObject.save()
-
+                    freeLock()
                     return HttpResponse("Your vote has been successfully casted !!!")
 
                 else:

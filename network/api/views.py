@@ -30,6 +30,14 @@ def requestLock(request):
     return HttpResponse(json.dumps(context))
 
 
+@csrf_exempt
+def freeLock(request):
+    Lock.objects.all().delete()
+    lockObject = Lock()
+    lockObject.lock = False
+    lockObject.save()
+    return
+
 
 @csrf_exempt
 class Blockchain(object):
