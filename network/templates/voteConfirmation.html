@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ElectoChain</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat' rel='stylesheet' type='text/css'>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'css/VoteConfirmation.css' %}">
+
+
+</head>
+
+<body>
+
+  <div class="modal">
+	  <div id="success-icon">
+		<div></div>
+	  </div>
+	  <svg id="close-modal" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 10 10">
+		<line x1="1" y1="-1" x2="9" y2="11" stroke-width="2.5" />
+		<line x1="9" y1="-1" x2="1" y2="11" stroke-width="2.5" />
+	  </svg>
+	  <h1><strong>Success!</strong></h1>
+	  <svg class="progress" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 4.5">
+		<rect height="4.5" width="100" rx="2" ry="2" />
+	  </svg>
+	  <hr>
+	  <h4 class="message">Your vote has been successfully casted !<br>
+		  Click on OK button and You will be logged out of the system automatically...</h4>
+
+	  <a href="{% url 'auth:logout' %}"><button id="okButton">OK</button></a>
+   </div>
+
+
+</body>

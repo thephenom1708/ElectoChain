@@ -192,7 +192,8 @@ def castNewVote(request, candidateId):
                             requests.post(address, data=context)
 
                     freeLock()
-                    return HttpResponse("Your vote has been successfully casted !!!")
+                    #return HttpResponse("Your vote has been successfully casted !!!")
+                    return render(request, 'voteConfirmation.html')
 
                 else:
                     return HttpResponse("Your vote has not been casted ! Please try again !!!" + str(failurePackets))
