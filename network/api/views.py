@@ -1,13 +1,7 @@
-from rest_framework.permissions import AllowAny
-from rest_framework import generics
-from rest_framework import status
-from rest_framework.response import Response
-from rest_framework.views import APIView
-from rest_framework.renderers import TemplateHTMLRenderer
 from django.http import HttpResponse
-from network.serializers import BlockSerializer, PeerSerializer, TransactionSerializer
+from network.serializers import BlockSerializer
 from network.models import *
-from django.views.decorators.csrf import csrf_protect, csrf_exempt
+from django.views.decorators.csrf import csrf_exempt
 import requests
 
 
@@ -52,6 +46,7 @@ class Blockchain(object):
         self.blockList = blockList
         self.openTransactions = openTransactions
 
+
 @csrf_exempt
 def getBlockchain():
     blockList = list(Block.objects.filter())
@@ -65,7 +60,7 @@ def getBlockchain():
 @csrf_exempt
 def createBlock(request):
     transaction = json.loads(request.POST.get('transaction', None))
-    #print(transaction)
+    # print(transaction)
     newTransaction = Transaction()
     newTransaction.transaction_id = transaction['transaction_id']
     newTransaction.voter_id = transaction['voter_id']
@@ -79,7 +74,7 @@ def createBlock(request):
     block.createNewBlock(newTransaction.transaction_id, blockChain.blockList[-1])
     blockSerializer = BlockSerializer(block)
 
-    #print(json.dumps(blockSerializer.data))
+    # print(json.dumps(blockSerializer.data))
     context = {
         'block': json.dumps(blockSerializer.data)
     }
@@ -94,14 +89,14 @@ def verifyBlock(request):
     success = False
     blockChain = getBlockchain()
     if len(blockChain.blockList) >= 3:
-        for i in range(1, len(blockChain.blockList)+1):
-            if(blockChain.blockList[i].hash == blockChain.blockList[i+1].prev_hash):
+        for i in range(1, len(blockChain.blockList) + 1):
+            if (blockChain.blockList[i].hash == blockChain.blockList[i + 1].prev_hash):
                 success = True
             else:
                 success = False
                 break
     else:
-        if(blockChain.blockList[-1].hash == block['prev_hash']):
+        if (blockChain.blockList[-1].hash == block['prev_hash']):
             success = True
 
     if (success == True):
@@ -117,6 +112,7 @@ def verifyBlock(request):
         }
         return HttpResponse(json.dumps(context))
 
+
 @csrf_exempt
 def blockAcception(request):
     block = json.loads(request.POST.get('block', None))
@@ -130,6 +126,7 @@ def blockAcception(request):
         newBlock.save()
 
     return
+
 
 @csrf_exempt
 def requestBlockchain(request):
@@ -155,8 +152,3 @@ def replaceBlockchain(request):
             block.save()
 
     return
-
-
-
-
-
