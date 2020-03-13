@@ -51,4 +51,9 @@ A research paper has also been written on this project
 ![](https://lh4.googleusercontent.com/H5WDCtX38yu7UU36uf4e0PKrNFxR8TuuHNLWkIvYsA7K_u-3siu5foq1QDJ77hYsaC6HDd5QgGW8y-3U8fw1rwoTNqsmRx_fC98zbPeKyWGi4y3awailbTvVF1eM67Oe4UsI0nox)
 
 
+## Steps to run the application:
+1. Clone this repository.
+2. Change this to working directory.
+3. Hit command: "docker-compose up --build"
+4. Go to http://localhost:5000/auth/ in your browser.
 

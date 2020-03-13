@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024903df-38c4-4c90-9b78-1940ed3e2a5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/media/wallpaper1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ElectoChain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ElectoChain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectoChain/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElectoChain/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElectoChain/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElectoChain/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
